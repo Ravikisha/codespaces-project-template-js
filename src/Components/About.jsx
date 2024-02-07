@@ -24,7 +24,7 @@ const imageAltText = "a 3d illustration of a ring shaped object with a gradient 
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "A highly skilled and motivated full stack developer with a strong background in personal project experience, seeking to leverage my expertise to contribute to a dynamic and innovative team. Committed to delivering exceptional web solutions, I aim to utilize my technical skills, creativity, and passion for coding to develop cutting-edge websites that exceed client expectations and drive business growth. ";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "“Sometimes it is the people no one can imagine anything of who do the things no one can imagine.”";
 
 const About = () => {
   return (

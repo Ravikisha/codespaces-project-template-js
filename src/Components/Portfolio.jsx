@@ -31,28 +31,28 @@ const imageAltText = "a laptop, a glass and working on code";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Portfolio Site",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Built with NextJs and deployed to Vercel. Includes my resume, projects, and contact information.",
+    url: "https://ravikishan.me/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Python Central Hub",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A Python learning hub that includes resources, tutorials, and projects. Built with Astro.",
+    url: "https://python-central-hub.vercel.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Web Development Bootcamp",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A repository of resources for learning web development. Includes a list of free courses, tutorials, and articles.",
+    url: "https://github.com/Ravikisha/Web-Development-Bootcamp",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "GitaSaar",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A web app that which answers your daily life questions with the help of Bhagavad Gita.",
+    url: "https://github.com/Ravikisha/DocChat-GitaSaar",
   },
 ];
 
