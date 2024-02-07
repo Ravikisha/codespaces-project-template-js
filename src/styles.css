@@ -14,6 +14,11 @@ body {
   width: 100%;
 }
 
+/* add a smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
 div#main {
   display: flex;
   flex-direction: column;
@@ -122,4 +127,74 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+/* add a slide in animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+#education .courses {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+#education .courses div {
+  animation: slideIn 0.5s ease-in-out;
+  margin: 1rem 0;
+  max-width: 300px;
+  border: 1px solid rgba(78, 86, 126, 0.644);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+#education .courses div:nth-child(odd) {
+  animation: slideInLeft 0.5s ease-in-out;
+}
+
+#education .courses div:nth-child(even) {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+#education .courses div h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+#education .courses div h4 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+#education .courses div p {
+  font-size: 1rem;
+  margin: 0;
 }
