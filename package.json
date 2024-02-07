@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://ravikisha.github.io/codespaces-teaching-template-js",
+  "homepage": "https://ravikisha.github.io/codespaces-project-template-js",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://ravikisha.github.io/codespaces-teaching-template-js'",
+    "build-gh": "parcel build --public-url 'https://ravikisha.github.io/codespaces-project-template-js'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
