@@ -8,6 +8,10 @@ html, body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 div#main {
   width: 100vw;
   flex-direction: column;
@@ -116,6 +120,76 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#education {
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  display: flex;
+}
+
+#education .courses {
+  width: 100%;
+  flex-flow: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  display: flex;
+}
+
+#education .courses div {
+  max-width: 300px;
+  border: 1px solid #4e567ea4;
+  border-radius: 10px;
+  margin: 1rem 0;
+  padding: 1rem;
+  animation: slideIn .5s ease-in-out;
+}
+
+#education .courses div:nth-child(2n+1) {
+  animation: slideInLeft .5s ease-in-out;
+}
+
+#education .courses div:nth-child(2n) {
+  animation: slideIn .5s ease-in-out;
+}
+
+#education .courses div h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#education .courses div h4 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+#education .courses div p {
+  margin: 0;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
